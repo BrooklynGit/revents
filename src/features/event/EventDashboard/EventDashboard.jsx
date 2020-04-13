@@ -87,7 +87,7 @@ class EventDashboard extends Component {
     this.setState(({ events }) => ({
       events: [...events, newEvent],
       isOpen: false
-    }));
+    })); 
   };
 
   handleSelectEvent = (event) => {
